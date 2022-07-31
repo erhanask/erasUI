@@ -15,12 +15,12 @@ npm install --save erasui
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'erasui'
+import { ErasButton } from 'erasui'
 import 'erasui/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return  <ErasButton erastyle={{margin: '20px'}} text={`Test Text`} type={'primary'} />
   }
 }
 ```
@@ -28,3 +28,6 @@ class Example extends Component {
 ## License
 
 MIT © [erasui](https://github.com/erasui)
+
+
+![Opera Anlık Görüntü_2022-07-31_193607_localhost](https://user-images.githubusercontent.com/77926871/182036490-7c07c013-0468-44c4-ad46-e88d6daf37bf.png)
